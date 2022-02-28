@@ -1,34 +1,23 @@
-# Starter Page Builder
+# Platform Ticket Project
 
-## How to use this repo
+## Introduction
 
-1. Clone the repo
-1. In your terminal, run
-   ```bash
-   npm install
-   ```
-1. In your terminal, run the parcel watcher
-   ```bash
-   npm run dev
-   ```
+The Platform Ticket Project was intended to teach how to replicate an old "Platform Ticket" to the November 12th, 1895 New Metropolitan Opera House event using HTML and CSS (Sass). There are many fonts in the original ticket, from what I can tell there is at least 8 fonts if not more. While I am including the New Metropolitan Opera House logo in the top as a font, for this project I instead used a svg of that logo.
 
-### The Parcel dev script
+![Original Ticket Image](src/imgs/original_ticket.png)
 
-The Parcel dev script will watch your files for changes automatically and will live update your browser.
+While working on this project I used a few fonts that I found similar to the original fonts used and tried to recreate the appearence of the ticket. Some ways that I was able to somewhat recreate the original ticket's appearence was by using different fonts (some being variable fonts) and with css like font-weight, font-variation-caps, transform: scale();, and even with some variable font settings.
 
-1. In your browser, go to `http://localhost:1234/`
-1. ParcelJS will reload the page when changes are made
+Inspiration for how to recreate this ticket came from Olivia Ng's [Train Ticket Codepen](https://codepen.io/oliviale/pen/MZZYyO)
 
-### How to stop a watcher
+## Fonts Used
 
-When you want to stop the watcher, click in the terminal and press ctrl-c
+All the fonts that were used in this project were:
 
-## When you are ready to go to production
+- [BrightonTwo Gothika](https://www.fontzillion.com/fonts/total-fontgeek-dtf-ltd/brightontwo-sans-nbp)
 
-1. In your terminal, run
+- [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=GLOBE%20TICKET%20COMPANY&preview.text_type=custom&thickness=6)
 
-   ```bash
-   npm run build
-   ```
+- [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif)
 
-1. The final version of your site will be in the `dist` folder.
+- [Merriweather](https://fonts.google.com/specimen/Merriweather?preview.text=Retain%20This%20check&preview.text_type=custom)

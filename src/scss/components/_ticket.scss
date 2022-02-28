@@ -1,0 +1,123 @@
+.ticket {
+  background-color: #e8a475;
+  margin-inline: auto;
+  margin-block: 50px;
+  box-shadow: 10px 10px 20px black;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  inline-size: 900px;
+  block-size: 320px;
+
+  &__info {
+    &--event {
+      border: 2px solid black;
+      padding: 2px;
+    }
+
+    &--names {
+      font-variant-caps: all-petite-caps;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      word-spacing: 5px;
+      text-align: center;
+      font-family: 'Roboto-Seif';
+      margin-top: 5px;
+      border-bottom: solid black;
+    }
+
+    &--date {
+      padding-bottom: 5px;
+      font-variant-caps: all-small-caps;
+      font-size: 30px;
+      font-weight: bold;
+      word-spacing: 5px;
+      text-align: center;
+      border-bottom: solid black;
+    }
+
+    &--extra_1 {
+      text-align: center;
+      border-bottom: solid black;
+      &--more_1 {
+        font-variant-caps: all-small-caps;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 2px;
+      }
+      &--more_2 {
+        font-family: 'Roboto-Seif';
+        font-variation-settings: 'wght' 800;
+        transform: scale(1.5, 2.5);
+        padding-top: 3px;
+        padding-bottom: 10px;
+      }
+    }
+
+    &--extra_2 {
+      font-variant-caps: all-small-caps;
+      font-size: 80px;
+      text-align: center;
+      font-family: 'goth';
+    }
+  }
+
+  &__right {
+    writing-mode: vertical-rl;
+    text-align: center;
+    height: 320px;
+    width: 300px;
+
+    &--title {
+      margin-right: 40px;
+      border-right: solid black;
+      font-variant-caps: all-small-caps;
+      font-size: 80px;
+      text-align: center;
+      font-family: 'goth';
+    }
+
+    &--event_name {
+      margin-left: 5px;
+      margin-right: -20px;
+      padding-left: 10px;
+      font-weight: bold;
+      font-size: 25px;
+      border-left: solid black;
+    }
+
+    &--event_date {
+      padding-left: 5px;
+      font-family: 'merriweather-regular';
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+      border-left: solid black;
+    }
+
+    &--ticket_reminder {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-variant-caps: all-petite-caps;
+      font-family: 'merriweather-regular';
+      font-weight: bold;
+      font-size: 30px;
+      border-left: solid black;
+    }
+
+    &--company {
+      margin-right: 5px;
+      font-family: 'roboto-bold';
+      font-weight: bold;
+      font-size: 17px;
+      letter-spacing: 2px;
+      word-spacing: 2px;
+    }
+  }
+}
